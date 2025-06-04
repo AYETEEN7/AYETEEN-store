@@ -83,3 +83,45 @@ footer {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 255, 255, 0.2);
 }
+.contact-section {
+  background: #111;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out;
+  border-top: 2px solid #00fff0;
+}
+
+.contact-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #00fff0;
+  text-transform: uppercase;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.contact-details a {
+  color: #00fff0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.contact-details a:hover {
+  color: #ffffff;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
